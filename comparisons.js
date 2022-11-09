@@ -75,7 +75,7 @@ var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-console.log("Is the number of people attending not stricly equal to the number of means.");
+console.log("Is the number of people attending not stricly equal to the number of meals.");
 
 // #-------------------
 // PART 3: Logical Operators
@@ -110,4 +110,4 @@ console.log("The dog loves to play or loves the dog park.", lovesToPlay || loves
 console.log("This dog loves to play and is a puppy (less than one-year old  ). True or False", lovesToPlay && age < 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: The final line was false because I decided that a puppy was under 1 year old and wrote it to answer according to that definition. 
