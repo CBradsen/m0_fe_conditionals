@@ -97,15 +97,17 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log("Does the dog love to play and love the dog park?", lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
 
-
+console.log("The dog loves to play or loves the dog park.", lovesToPlay || lovesDogPark);
 // Determine if the dog loves to play and is a puppy
+console.log("This dog loves to play and is a puppy (less than one-year old  ). True or False", lovesToPlay && age < 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
