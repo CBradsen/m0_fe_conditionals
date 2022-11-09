@@ -44,7 +44,7 @@ console.log("Are there 21 or more students?", numberStudents >= 21);
 console.log("There are 20 or less students?", numberStudents <= 20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-console.log("The number of students less than or equal to 21? True or False.", numberStudents <= 21);
+console.log("The number of students is less than or equal to 21? True or False.", numberStudents <= 21);
 
 // #-------------------
 // PART 2: Articulating what you are doing
@@ -55,23 +55,27 @@ console.log("The number of students less than or equal to 21? True or False.", n
 // Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 // Make sure YOU can explain it that way!
 
-console.log(4 < 9);
+console.log(4 < 9); 
+console.log("Here the code is asking: Is the number 4 less than 9?");
 // YOU DO: Explain.
-
+ 
 var books = 3;
 console.log(4 < books);
+console.log("The code is showing if the number 4 is less than the number of books.");
+
 // YOU DO: Explain.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+console.log("The code is discerning if the number of friends are greater than siblings");
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+console.log("Is the number of people attending not stricly equal to the number of means.");
 
 // #-------------------
 // PART 3: Logical Operators
