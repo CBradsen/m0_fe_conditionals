@@ -19,29 +19,32 @@ var numberDogs = 0
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
-console.log("The number of teachers is less than the number of students. True or False?", numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
+console.log("The number of teachers is less than the number of students. True or False?", numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
 // this should log: false
-
+console.log("The nunber of Teachers is strictly equal to the stringTeachers. True or False?", numberTeachers === stringTeachers);
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
 // this should log: true
+console.log("The number of teachers is not equal to the number of students. True or False?", numberTeachers !== numberStudents);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
 // this should log: true
+console.log("Are there 20 or more students?", numberStudents >= 20);
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
 // this should log: false
+console.log("Are there 21 or more students?", numberStudents >= 21);
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
 // this should log: true
-
+console.log("There are 20 or less students?", numberStudents <= 20);
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
 // this should log: true
-
+console.log("The number of students less than or equal to 21? True or False.", numberStudents <= 21);
 
 // #-------------------
 // PART 2: Articulating what you are doing
