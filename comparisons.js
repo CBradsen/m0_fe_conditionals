@@ -19,6 +19,7 @@ var numberDogs = 0
 // EXAMPLE: log the result of the comparison: is numberTeachers greater than numberStudents?
 console.log("Is numberTeachers greater than numberStudents?", numberTeachers > numberStudents);
 // this should log: "Is numberTeachers greater than numberStudents?" false
+console.log("The number of teachers is less than the number of students. True or False?", numberTeachers < numberStudents);
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
 // this should log: true
