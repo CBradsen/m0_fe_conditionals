@@ -58,7 +58,7 @@ var numQuarters = 0
 
 if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
-}else if (numQuarters < 2){
+} else (numQuarters < 2){
   console.log("I don't have enough money for a gumball");
 }
 
@@ -85,6 +85,6 @@ var hasSauce = true;
 
 if (cupsOfFlour >= 2 && hasSauce = true) {
 console.log("I can make pizza");
-}else if (cupsOfFlour < 2 || hasSauce = false) {
+} else (cupsOfFlour < 2 || hasSauce = false) {
   console.log("I can't make pizza");
 }
